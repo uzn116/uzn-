@@ -35,10 +35,17 @@ git push -u origin master                                                       
 #  깃허브 저장 
 git add .
 
-git commit -m "메시지"
+git commit -m "테스트 수정"
 
 # 깃허브페이지 내보내기 
 git push
 -----------------
 
 MPA + CSS 미디어쿼리 이거 1번  반응형 홈피 제작중 
+--------------
+홈피 깃허브 도메인 바꾸기 
+
+git remote -v
+
+
+git remote set-url origin https://github.com/uzn16/uzn16.git        홈피주소넣어서
