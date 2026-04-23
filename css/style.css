@@ -5,16 +5,25 @@ ul {
   list-style: none; /* 점 제거*/
   padding: 0;       /* 기본 들여쓰기 제거 */}
 p {
-  line-height: 1.5; /* 기본값은 보통 1.2 정도입니다. 숫자가 커질수록 넓어져요. */}
-p {margin-top: 0;      /* 위쪽 여백을 없앱니다 */
+  line-height: 1.5; /* 기본값은 보통 1.2 정도입니다. 숫자가 커질수록 넓어져요. */
+  margin-top: 0;      /* 위쪽 여백을 없앱니다 */
   margin-bottom: 50px; /* p 태그 아래쪽에 30픽셀만큼 빈 공간을 만듭니다 */
 
-padding-left: 0.7em;  
+  padding-left: 0.7em;  
   text-indent: -0.7em;
-  
-}
+  }
+
 h1 {
   margin-bottom: 8px; /* 제목 아래쪽에 큰 공간을 만듭니다. */}
 
 li {
   margin-bottom: 20px; /* 리스트 항목들 사이를 벌립니다. */}
+
+
+  
+  /* 화면 너비가 768px보다 작아질 때 적용되는 규칙 */
+@media (max-width: 768px) {
+  body {
+    margin-left: 10px; /* 모바일에서는 여백을 더 좁게 설정 */
+  }
+}
